@@ -7,7 +7,7 @@ from .utils.auth import JwtQueryParamAuthentication, JwtAuthorizationAuthenticat
 
 
 class LoginView(APIView):
-    authentication_classes = []
+    authentication_classes = []  # 设置为空表示该接口不需要认证
 
     def post(self, request, *args, **kwargs):
         """ 用户登录 """
