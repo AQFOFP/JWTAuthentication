@@ -29,7 +29,7 @@ def parse_payload(token):
     """
     result = {'status': False, 'data': None, 'error': None}
     try:
-        verified_payload = jwt.decode(token, JWT_SALT, True)
+        verified_payload = jwt.decode(token, JWT_SALT, True)  # 一句就校验是否过期、是否非法token
         result['status'] = True
         result['data'] = verified_payload
     except exceptions.ExpiredSignatureError:

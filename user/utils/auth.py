@@ -16,7 +16,7 @@ from .jwt import parse_payload
 class JwtQueryParamAuthentication(BaseAuthentication):
     """
     用户需要在url中通过参数进行传输token，例如：
-    http://www.pythonav.com?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NzM1NTU1NzksInVzZXJuYW1lIjoid3VwZWlxaSIsInVzZXJfaWQiOjF9.xj-7qSts6Yg5Ui55-aUOHJS4KSaeLq5weXMui2IIEJU
+    http://127.0.0.1:8000?token=eyJ0eXAiOiJqd3QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyaWQiOjIsInVzZXJuYW1lIjoibGlzaSIsImV4cCI6MTU5MTYxMTU5OH0.lHXro_4ax4iSArQbbXYyjZW6-kLr_8tuGd3TOImBjqI
     """
 
     def authenticate(self, request):
