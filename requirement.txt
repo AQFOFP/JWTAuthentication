@@ -1,0 +1,8 @@
+cffi==1.14.0
+cryptography==2.9.2
+Django==1.11
+djangorestframework==3.11.0
+pycparser==2.20
+PyJWT==1.7.1
+pytz==2020.1
+six==1.15.0
