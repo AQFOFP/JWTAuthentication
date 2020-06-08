@@ -1,5 +1,6 @@
 ## JWTAuthentication
-基于rest_framework下使用jwt进行认证
+
+## 1.基于rest_framework下使用jwt进行认证
 
 
 
@@ -68,12 +69,12 @@ REST_FRAMEWORK = {
 
 
 
-## 登录获取token
+## 2.登录获取token
 
 ![1591610449466](./README/1591610449466.png)
 
 
 
-## 请求需要认证的接口
+## 3.请求需要认证的接口
 
 ![1591610585174](./README/1591610537977.png)
